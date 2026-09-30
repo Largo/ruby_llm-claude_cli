@@ -1,5 +1,9 @@
 # ruby_llm-claude_cli
 
+![ruby_llm-claude_cli: your Claude Code login as a RubyLLM provider](docs/social/twitter-card.png)
+
+[![Gem Version](https://badge.fury.io/rb/ruby_llm-claude_cli.svg)](https://rubygems.org/gems/ruby_llm-claude_cli) [![tests](https://github.com/Largo/ruby_llm-claude_cli/actions/workflows/tests.yml/badge.svg)](https://github.com/Largo/ruby_llm-claude_cli/actions/workflows/tests.yml)
+
 A [RubyLLM](https://rubyllm.com) 2.x provider that runs chats through the local
 `claude -p` (Claude Code) instead of the HTTP API. Requests use whatever login
 Claude Code has, including a Pro/Max subscription. No API key is needed.
