@@ -70,6 +70,14 @@ end
   stays the source of truth for the conversation.
 - Token counts come from the CLI's result. Costs follow your Claude Code plan.
 
+## Try it
+
+```bash
+bundle install
+bundle exec ruby bin/console        # irb with a `chat` helper and a demo Weather tool
+bundle exec ruby examples/demo.rb   # scripted demo; MODEL=haiku for speed
+```
+
 ## Tests
 
 ```bash

@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require_relative '../examples/setup'
+require 'irb'
+
+puts <<~HELP
+  ruby_llm + claude -p. Try:
+    c = chat                                   # sonnet; chat('haiku') for another model
+    c.ask('Hello!').content
+    c.ask('Tell me a story') { |chunk| print chunk.content }
+    c.ask('What is in this?', with: 'path/to/image.png').content
+    chat.with_tools(Weather).ask('Weather in Zurich?').content
+    chat.with_schema({ type: 'object', properties: { city: { type: 'string' } }, required: ['city'] })
+        .ask('Capital of Switzerland?').content
+HELP
+IRB.start(__FILE__)

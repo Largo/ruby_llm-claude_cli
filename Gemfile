@@ -5,3 +5,5 @@ gemspec
 
 gem 'minitest'
 gem 'rubyzip', require: false
+gem 'irb'
+gem 'fiddle', platforms: :windows # reline (irb) on Windows needs it since Ruby 4
