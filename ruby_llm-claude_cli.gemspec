@@ -5,7 +5,7 @@ require_relative 'lib/ruby_llm/claude_cli/version'
 Gem::Specification.new do |spec|
   spec.name = 'ruby_llm-claude_cli'
   spec.version = RubyLLM::ClaudeCLI::VERSION
-  spec.authors = ['Andreas Idogawa']
+  spec.authors = ['Andi Idogawa']
   spec.email = ['web@idogawa.com']
   spec.summary = 'RubyLLM provider that runs chats through the local `claude -p` CLI'
   spec.description = 'Use Claude Code (and its subscription login) as a RubyLLM provider: streaming, ' \
